@@ -73,7 +73,10 @@ public class Client2 {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            System.out.println("Не работайн");
+        } finally {
+            System.out.println("Клиент выключен");
         }
     }
 
